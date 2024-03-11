@@ -1,8 +1,5 @@
 import { initializeApp } from 'firebase/app'
-//import { getFirestore } from 'firebase/firestore'
 import { getFirestore, collection } from 'firebase/firestore'
-// ... other firebase imports
-
 export const firebaseApp = initializeApp({
     apiKey: "xxxxx",
     authDomain: "xxxxx",
