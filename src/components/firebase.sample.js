@@ -11,9 +11,7 @@ export const firebaseApp = initializeApp({
     messagingSenderId: "xxxxx",
     appId:"xxxxx",
     measurementId:"xxxxx"
-  
 })
-// used for the firestore refs
  const db = getFirestore(firebaseApp)
  const todosRef = collection(db, 'todo')
 export default todosRef
